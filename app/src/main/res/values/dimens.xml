@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="h2">18sp</dimen>
+    <dimen name="margin">30dp</dimen>
+    <dimen name="h1">24sp</dimen>
+    <dimen name="magin">30dp</dimen>
+
+
+
+</resources>

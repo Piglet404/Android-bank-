@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DEMOFINAL</string>
+    <string name="new_register">New Register</string>
+    <string name="h1">Drawer Menu</string>
+    <string name="exit">Exit</string>
+    <string name="sign_out">Sign out</string>
+
+</resources>

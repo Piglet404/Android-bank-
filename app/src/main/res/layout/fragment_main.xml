@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="@dimen/magin"
+        android:background="@drawable/bg_login"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--User-->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:background="@drawable/textfield_email"
+            android:hint="Email: xxxxx@xxx.com"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!--Password-->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:background="@drawable/textfield_password"
+            android:hint="Password: xxxxxxxx"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!--Login-->
+        <Button
+            android:id="@+id/btnLogin"
+            android:background="@drawable/bg_button"
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!--Register-->
+        <TextView
+            android:id="@+id/txtRegister"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/margin_top"
+            android:textSize="@dimen/h2"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/new_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>
